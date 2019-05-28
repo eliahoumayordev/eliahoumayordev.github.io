@@ -76,7 +76,6 @@ body{
 }
 
 .mainImage{
-  width: 594px;
   background: rgba(0, 0, 0, 0);
   padding: 0px;
     padding-top: 0%;
@@ -89,15 +88,13 @@ body{
 .mainImage-img{
   border-radius: 0%;
   align-self: center;
-  width: 594px;
-  height: 445.5px;
 }
 
 
 #wrap{
 }
 
-.davidDescription{
+.Description{
   width: 45%;
   background: rgba(0, 0, 0, 0);
   padding: 0px;
@@ -108,24 +105,24 @@ body{
   color: black;
   font-family: 'Chivo',sans-serif;
 }
-.davidDescription-img{
+.Description-img{
   border-radius: 0%;
   align-self: center;
   width: 594px;
   height: 445.5px;
 }
-.davidDescription h1{
+.Description h1{
   font-size: 30px;
   letter-spacing: 1px;
   font-weight: 100;
 }
-.davidDescription h5{
+.Description h5{
     font-family: 'Century Gothic',sans-serif;
   font-size: 18px;
   letter-spacing: 1px;
   font-weight: 100;
 }
-.davidDescription p{
+.Description p{
   text-align: left;
 }
 ul{
@@ -133,7 +130,7 @@ ul{
   margin: 0;
   padding: 0;
 }
-.davidDescription li{
+.Description li{
   text-align: center;
   display: inline-block;
   align-content: center;
@@ -141,13 +138,13 @@ ul{
   margin: 3px;
   list-style: none;
 }
-.davidDescription li a{
+.Description li a{
   color: black;
   text-decoration: none;
   font-size: 40px;
   transition: all ease-in-out 250ms;
 }
-.davidDescription li a:hover{
+.Description li a:hover{
   color: pink;
 }
 
@@ -166,7 +163,7 @@ ul{
   font-family: 'Chivo',sans-serif;
 }
 .interestsBox h1{
-  font-family: 
+  font-family: 'Century Gothic',sans-serif;
   font-size: 30px;
   letter-spacing: 1px;
   font-weight: 100;
@@ -201,7 +198,7 @@ ul{
 /*  font-family: 'Chivo',sans-serif;*/
 }
 .hobbiesBox h1{
-  font-family: 
+  font-family: 'Century Gothic',sans-serif;
   font-size: 30px;
   letter-spacing: 1px;
   font-weight: 100;
