@@ -1,0 +1,250 @@
+#Header
+/* Style the header with a grey background and some padding */
+.header{}
+.header {
+  background-color: white;
+  padding: 25px 10px;
+}
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 15px; 
+  line-height: 0px;
+  border-radius: 4px;
+    text-decoration: none
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: normal;
+  font-family: 'Century Gothic',sans-serif;
+  margin-left: 6%;
+  letter-spacing: 1px;
+  font-weight: 100;
+    text-decoration: none
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  color: pink;
+  transition: all ease-in-out 250ms;
+    text-decoration: none
+}
+
+
+/* Style the active/current link*/
+.header a.active {
+  color: gray;
+}
+
+.header a.active:hover {
+  color: pink;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+  font-family: 'Chivo',sans-serif;
+  margin-right: 6%;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+#Body
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+    
+}
+
+.mainImage{
+  width: 594px;
+  background: rgba(0, 0, 0, 0);
+  padding: 0px;
+    padding-top: 0%;
+  text-align: left;
+  margin: auto;
+  margin-top: 5%;
+  color: black;
+  font-family: 'Century Gothic',sans-serif;
+}
+.mainImage-img{
+  border-radius: 0%;
+  align-self: center;
+  width: 594px;
+  height: 445.5px;
+}
+
+
+#wrap{
+}
+
+.davidDescription{
+  width: 45%;
+  background: rgba(0, 0, 0, 0);
+  padding: 0px;
+  padding-right: 8%;
+  text-align: left;
+  float: right;
+  margin-top: 2%;
+  color: black;
+  font-family: 'Chivo',sans-serif;
+}
+.davidDescription-img{
+  border-radius: 0%;
+  align-self: center;
+  width: 594px;
+  height: 445.5px;
+}
+.davidDescription h1{
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.davidDescription h5{
+    font-family: 'Century Gothic',sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.davidDescription p{
+  text-align: left;
+}
+ul{
+  align-self: center; 
+  margin: 0;
+  padding: 0;
+}
+.davidDescription li{
+  text-align: center;
+  display: inline-block;
+  align-content: center;
+  align-items: center;
+  margin: 3px;
+  list-style: none;
+}
+.davidDescription li a{
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+  transition: all ease-in-out 250ms;
+}
+.davidDescription li a:hover{
+  color: pink;
+}
+
+
+
+.interestsBox{
+  width: 19.5%;
+  background: rgba(0, 0, 0, 0);
+  padding: 0px;
+  padding-left: 8%;
+  padding-top: 19px;
+  text-align: left;
+  float: left;
+  margin-top: 2%;
+  color: black;
+  font-family: 'Chivo',sans-serif;
+}
+.interestsBox h1{
+  font-family: 
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.interestsBox h5{
+  font-family: 'Century Gothic',sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.interestsBox p{
+  text-align: left;
+  font-size: 12px;
+  letter-spacing: 1px;
+      font-family: 'Century Gothic',sans-serif; 
+    font-weight: lighter;
+
+}
+
+
+
+.hobbiesBox{
+  width: 19.5%;
+  background: rgba(0, 0, 0, 0);
+  padding: 0px;
+  padding-left: 12%;
+  padding-top: 10px;
+  text-align: left;
+  float: left;
+  margin-top: 2%;
+  color: black;
+/*  font-family: 'Chivo',sans-serif;*/
+}
+.hobbiesBox h1{
+  font-family: 
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.hobbiesBox h5{
+  font-family: 'Century Gothic',sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.hobbiesBox p{
+  text-align: left;
+  font-size: 12px;
+  letter-spacing: 1px;
+    font-family: 'Century Gothic',sans-serif; 
+/*  font-weight: 100;*/
+    font-weight: lighter;
+    
+
+}
+
+
+
+.footer {
+    padding-top: 3000px;
+    width: 90%;
+    height : 125px;
+    background-color:white;
+    display: inline-block;
+    text-align: right;
+    vertical-align: text-bottom;
+    padding-right: 10%
+    
+}
+
+.footer h1{
+/*    display: inline-block;*/
+    padding-top: 70px;
+    padding-bottom: 30px;
+    vertical-align: text-bottom;
+  font-family: 'Century Gothic',sans-serif; 
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
