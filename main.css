@@ -2752,6 +2752,14 @@ background-size:     cover;                      /* <------ */
   background-size: 70%
 }
 
+.bg-deardrugs{
+  background-image: url("Images/pdg.jpg") !important;
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
+  background-size: 70%
+}
+
 .bg-info {
   background-color: #2CA8FF !important;
 }
