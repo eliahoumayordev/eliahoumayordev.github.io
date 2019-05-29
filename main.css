@@ -1917,12 +1917,12 @@ textarea.form-control:focus, textarea.form-control:active {
 
 
 .progress-container.progress-primary .progress-bar {
-  background: #4C4CFF;
+  background: #00b0ff;
 }
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {
-  color: #4C4CFF;
+  color: #00b0ff;
 }
 
 .progress-container.progress-info .progress {
