@@ -660,7 +660,7 @@
 .show >
 .navbar .navbar-nav > a.btn.dropdown-toggle:hover {
   background-color: #979797;
-  color: #FFFFFF;
+  color: #0080FF;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -6465,7 +6465,7 @@ Created using IcoMoon - icomoon.io
 .cc-profile-image a:before {
   content: "";
 /* Pulsate Color*/
-  border: 15px solid rgba(255,182,193, 0.6);
+  border: 15px solid rgba(0,128,255, 0.6);
   border-radius: 50%;
   height: 180px;
   width: 180px;
