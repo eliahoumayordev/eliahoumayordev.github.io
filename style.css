@@ -31,7 +31,7 @@
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  color: pink;
+  color: #0080ff;
   transition: all ease-in-out 250ms;
     text-decoration: none
 }
@@ -43,7 +43,7 @@
 }
 
 .header a.active:hover {
-  color: pink;
+  color: #0080ff;
 }
 
 /* Float the link section to the right */
@@ -147,7 +147,7 @@ ul{
   transition: all ease-in-out 250ms;
 }
 .Description li a:hover{
-  color: pink;
+  color: #0080ff;
 }
 
 
