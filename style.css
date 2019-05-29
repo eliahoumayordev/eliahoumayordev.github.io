@@ -78,7 +78,7 @@ body{
 .mainImage{
   background: rgba(0, 0, 0, 0);
   padding: 0px;
-  padding-top: 0%;
+  padding-top: 1%;
   text-align: center;
   color: black;
   font-family: 'Century Gothic',sans-serif;
@@ -99,12 +99,13 @@ body{
   width: 45%;
   background: rgba(0, 0, 0, 0);
   padding: 0px;
-  padding-right: 8%;
+  padding-right: 10%;
   text-align: left;
   float: right;
   margin-top: 2%;
   color: black;
   font-family: 'Chivo',sans-serif;
+  text-align: justify;
 }
 .Description-img{
   border-radius: 0%;
@@ -124,7 +125,7 @@ body{
   font-weight: 100;
 }
 .Description p{
-  text-align: left;
+  text-align: justify;
 }
 ul{
   align-self: center; 
@@ -156,7 +157,6 @@ ul{
   background: rgba(0, 0, 0, 0);
   padding: 0px;
   padding-left: 8%;
-  padding-top: 19px;
   text-align: left;
   float: left;
   margin-top: 2%;
@@ -191,7 +191,6 @@ ul{
   background: rgba(0, 0, 0, 0);
   padding: 0px;
   padding-left: 12%;
-  padding-top: 10px;
   text-align: left;
   float: left;
   margin-top: 2%;
