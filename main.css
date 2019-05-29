@@ -2306,7 +2306,7 @@ p {
 body {
   color: #2c2c2c;
   font-size: 14px;
-  font-family: 'sans-serif;
+  font-family: 'sans-serif';
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -2736,27 +2736,20 @@ background-size:     cover;                      /* <------ */
     background-size: 60%;
 }
 
-.bg-intelli{
-    background-image: url("Images/intelli.png") !important;
+.bg-AB{
+    background-image: url("Images/AB.jpg") !important;
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;
     background-size: 70%
 }
-.bg-stor{
-    background-image: url("Images/1024pt%20Icon@1x.png");
-        background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center;
-    background-size: 60%
-}
 
-.bg-yahoo{
-    background-image: url("Images/yahoo.jpg") !important;
-        background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center;
-    background-size: 70%
+.bg-deardrugs{
+  background-image: url("Images/deardrugs.jpg") !important;
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
+  background-size: 70%
 }
 
 .bg-info {
