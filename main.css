@@ -820,7 +820,7 @@ fieldset[disabled]
           transform: translate(-12px, -12px);
   line-height: 1.5626rem;
   width: 25px;
-/*    color: pink;*/
+  color: white;
 }
 
 .btn:not(.btn-icon) .now-ui-icons,
