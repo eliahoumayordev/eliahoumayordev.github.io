@@ -2745,15 +2745,15 @@ body {
 }
 
 .bg-hw {
-  background-image: url("Images/hw.png") !important;
-background-size:     cover;                      /* <------ */
+    background-image: url("Images/hw.png") !important;
+    background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;
     background-size: 60%;
 }
 
 .bg-AB{
-    background-image: url("Images/AB.jpeg") !important;
+    background-image: url("Images/AB.jpg") !important;
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;
