@@ -2728,6 +2728,22 @@ body {
     
 }
 
+.bg-shaare {
+  background-image: url("Images/shaare.jpg") !important;                     /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-size: 60%;
+    
+}
+
+.bg-bc {
+  background-image: url("Images/BC.jpg") !important;                     /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-size: 60%;
+    
+}
+
 .bg-hw {
   background-image: url("Images/hw.png") !important;
 background-size:     cover;                      /* <------ */
@@ -2737,7 +2753,7 @@ background-size:     cover;                      /* <------ */
 }
 
 .bg-AB{
-    background-image: url("Images/AB.jpg") !important;
+    background-image: url("Images/AB.jpeg") !important;
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;
