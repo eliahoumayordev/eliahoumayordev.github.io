@@ -2767,6 +2767,13 @@ body {
   background-position: center center;
   background-size: 70%
 }
+.bg-pdg{
+  background-image: url("Images/pdg.png") !important;
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
+  background-size: 70%
+}
 
 .bg-info {
   background-color: #2CA8FF !important;
